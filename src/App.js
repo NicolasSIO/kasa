@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "@/pages/Layout";
 import Home from "@/pages/Home";
 import APropos from "@/pages/APropos";
-import Error from "./pages/Error";
+import Error from "@/pages/Error";
 
 function App() {
   return (

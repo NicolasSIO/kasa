@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <header className="Header">
       <nav>
-        <img src="./assets/img/logo.svg" alt="Logo Kasa" className="logo" />
+        <Link to="accueil">
+          <img src="./assets/img/logo.svg" alt="Logo Kasa" className="logo" />
+        </Link>
         <ul>
           <li>
             <Link to="accueil">Accueil</Link>
