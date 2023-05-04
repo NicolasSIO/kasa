@@ -8,7 +8,11 @@ const Header = () => {
     <header className="Header">
       <nav>
         <Link to="accueil">
-          <img src="./assets/img/logo.svg" alt="Logo Kasa" className="logo" />
+          <img
+            src="/assets/img/logo-orange.svg"
+            alt="Logo Kasa"
+            className="logo"
+          />
         </Link>
         <ul>
           <li>

@@ -9,10 +9,5 @@ body {
 
 header,
 main {
-  margin: 0 100px;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  margin: 83px 100px 30px 100px;
 }

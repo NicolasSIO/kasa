@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="Footer">
       <img
-        src="./assets/img/logo.svg"
+        src="/assets/img/logo-white.svg"
         alt="Logo Kasa"
         className="footer-logo"
       />
