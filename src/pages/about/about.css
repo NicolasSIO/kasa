@@ -1,0 +1,7 @@
+.about-container {
+  width: 80%;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  margin: 0 auto;
+}

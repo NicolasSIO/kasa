@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-import logements from "@/data/logement.json";
+import { getAllLogements } from "@/_services/api";
 import Card from "@/components/card/Card";
 import "./home.css";
 
 const Home = () => {
+  const [logements, setLogement] = useState([]);
+
+  useEffect(() => {
+    setLogement(getAllLogements());
+    // eslint-disable-next-line
+  }, []);
   return (
     <main className="Home">
       <div className="banner">

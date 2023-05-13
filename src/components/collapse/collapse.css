@@ -1,0 +1,37 @@
+.Collapse {
+  width: 100%;
+  margin: 33px 0;
+}
+
+.collapse-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #ff6060;
+  border-radius: 5px;
+  padding: 6px 19px 7px 18px;
+  height: 34px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.reverse-arrow {
+  transform: rotate(180deg);
+}
+
+.collapse-content {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  padding: 36px 27px 19px 18px;
+}
+
+.collapsed {
+  display: none;
+}
+
+.collapse-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}

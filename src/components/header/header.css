@@ -13,12 +13,9 @@ ul {
   display: flex;
 }
 
-li {
-  margin-left: 57px;
-  font-size: 24px;
-}
-
-a {
+.header-link {
   text-decoration: none;
   color: #ff6060;
+  font-size: 24px;
+  margin-left: 57px;
 }
