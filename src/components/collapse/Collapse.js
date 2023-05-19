@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./collapse.css";
 
 const Collapse = (props) => {
-  const [collapsed, setCollapse] = useState(false);
+  const [collapsed, setCollapse] = useState(true);
 
   const toggle = () => {
     setCollapse(!collapsed);
@@ -13,7 +13,9 @@ const Collapse = (props) => {
     <div className="Collapse" onClick={toggle}>
       <div className="collapse-header">
         <h2 className="collapse-title">{props.title}</h2>
-        <span className="collapse-arrow">^</span>
+        <span className={collapsed ? "collapse-arrow" : "reverse-arrow"}>
+          ^
+        </span>
       </div>
       <div className={`collapse-content ${collapsed ? "collapsed" : ""}`}>
         <p className="collapse-text">{props.content}</p>
