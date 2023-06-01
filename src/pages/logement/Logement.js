@@ -10,12 +10,14 @@ import Error from "@/pages/error/Error";
 import "./logement.css";
 
 const Logement = () => {
+  // Récupere l'id du logement dans l'url
   let { id } = useParams();
   const [logement, setLogement] = useState({});
   const [loader, setLoader] = useState(true);
   const [error, setError] = useState(false);
   const ratings = [1, 2, 3, 4, 5];
 
+  // Teste si on récupere un logement + gestion du loader
   useEffect(() => {
     let log = getOneLogement(id);
     if (log) {

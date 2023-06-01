@@ -5,6 +5,7 @@ import "./gallery.css";
 const Gallery = (props) => {
   const [index, setIndex] = useState(1);
 
+  // Gestion de l'index
   const next = () => {
     if (index === props.pictures.length) {
       setIndex(1);
