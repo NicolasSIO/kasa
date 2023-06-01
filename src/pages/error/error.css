@@ -1,6 +1,7 @@
 .error-container {
   display: flex;
   flex-direction: column;
+  margin: 169px 0 159px 0;
 }
 
 .error-404 {
@@ -18,4 +19,27 @@
   font-weight: 500;
   font-size: 18px;
   text-decoration-line: underline;
+}
+
+@media screen and (max-width: 400px) {
+  .error-container {
+    margin-top: 190px;
+    margin: 195px 0 235px 0;
+  }
+
+  .error-404 {
+    font-size: 96px;
+  }
+
+  .error-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 11px 0 133px 0;
+  }
+
+  .error-link {
+    font-size: 14px;
+  }
 }

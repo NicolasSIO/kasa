@@ -13,9 +13,9 @@ const Home = () => {
   }, []);
   return (
     <main className="Home">
-      <div className="banner">
+      <div className="home-banner">
         <img
-          className="banner-img"
+          className="home-banner-img"
           src="./assets/img/home-banner.png"
           alt="Bannière"
         />

@@ -6,9 +6,9 @@ import "./about.css";
 const About = () => {
   return (
     <main className="About">
-      <div className="banner">
+      <div className="about-banner">
         <img
-          className="banner-img"
+          className="about-banner-img"
           src="./assets/img/about-banner.png"
           alt="Bannière"
         />

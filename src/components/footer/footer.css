@@ -15,3 +15,9 @@
   font-size: 24px;
   font-style: normal;
 }
+
+@media screen and (max-width: 400px) {
+  .footer-text {
+    font-size: 12px;
+  }
+}

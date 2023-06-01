@@ -13,9 +13,13 @@ const Collapse = (props) => {
     <div className="Collapse" onClick={toggle}>
       <div className="collapse-header">
         <h2 className="collapse-title">{props.title}</h2>
-        <span className={collapsed ? "collapse-arrow" : "reverse-arrow"}>
-          ^
-        </span>
+        <div className="collapse-arrow-container">
+          <img
+            src="/assets/icons/leftArrow.svg"
+            alt="collaspe-arrow"
+            className={collapsed ? "collapse-arrow" : "reverse-arrow"}
+          />
+        </div>
       </div>
       <div className={`collapse-content ${collapsed ? "collapsed" : ""}`}>
         <p className="collapse-text">{props.content}</p>

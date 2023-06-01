@@ -31,7 +31,7 @@
   left: 23px;
 }
 
-.fleche {
+.arrow {
   height: 100%;
 }
 
@@ -55,4 +55,37 @@
   width: 100%;
   font-size: 18px;
   color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .Gallery {
+    width: 335px;
+    height: 255px;
+    margin-bottom: 15px;
+  }
+
+  .gallery-prev,
+  .gallery-next {
+    width: 12px;
+    height: 20px;
+    padding: 0;
+  }
+
+  .gallery-next {
+    position: absolute;
+    right: 5px;
+  }
+
+  .gallery-prev {
+    position: absolute;
+    left: 5px;
+  }
+
+  .gallery-media-container {
+    border-radius: 10px;
+  }
+
+  .gallery-index {
+    display: none;
+  }
 }

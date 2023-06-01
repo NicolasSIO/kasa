@@ -75,3 +75,80 @@
   font-size: 18px;
   line-height: 25px;
 }
+
+@media screen and (max-width: 400px) {
+  .logement-infos {
+    flex-direction: column;
+  }
+
+  .logement-name {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .logement-location {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .logement-tags {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tag {
+    border-radius: 5px;
+    width: 84px;
+    height: 18px;
+    margin-right: 0;
+    line-height: 18px;
+    font-size: 10px;
+  }
+
+  .host-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 16px 0;
+  }
+
+  .logement-host {
+    margin-bottom: 0;
+  }
+
+  .host-name {
+    line-height: 17px;
+    font-size: 12px;
+  }
+
+  .host-picture {
+    width: 32px;
+    height: 32px;
+  }
+
+  .star {
+    margin-right: 7px;
+    margin-left: 0;
+    height: 13px;
+    width: 13px;
+  }
+
+  .logement-details {
+    flex-direction: column;
+  }
+
+  .logement-details > div {
+    width: 100%;
+  }
+
+  .logement-details > div > div {
+    font-size: 13px;
+  }
+
+  .logement-details > div > div:last-child > p {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

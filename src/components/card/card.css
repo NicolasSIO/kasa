@@ -35,3 +35,14 @@ figure {
   color: white;
   text-align: left;
 }
+
+@media screen and (max-width: 400px) {
+  .Card {
+    margin: 0 0 20px 0;
+  }
+
+  figure {
+    height: 255px;
+    width: 335px;
+  }
+}

@@ -52,7 +52,7 @@ const Logement = () => {
               ))}
             </div>
           </div>
-          <div>
+          <div className="host-rating">
             <div className="logement-host">
               <p className="host-name">{logement.host.name}</p>
               <img
