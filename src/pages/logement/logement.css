@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   text-align: left;
+  margin-bottom: 26px;
 }
 
 .logement-tags {
