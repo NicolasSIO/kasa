@@ -19,7 +19,9 @@ const Home = () => {
           src="./assets/img/home-banner.png"
           alt="Bannière"
         />
-        <p className="banner-text">Chez vous, partout et ailleurs</p>
+        <p className="banner-text">
+          Chez vous, <span>partout et ailleurs</span>
+        </p>
       </div>
       <section className="list-logement">
         {logements.map((logement) => (

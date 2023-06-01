@@ -1,0 +1,77 @@
+.logement-name {
+  color: #ff6060;
+  font-size: 36px;
+  padding: 0;
+  line-height: 51px;
+}
+
+.logement-infos {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.logement-tags {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tag {
+  color: white;
+  background-color: #ff6060;
+  border-radius: 10px;
+  width: 115px;
+  height: 25px;
+  text-align: center;
+  margin-right: 10px;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.rating {
+  width: 100%;
+  height: 100%;
+}
+
+.logement-host {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 27px;
+}
+
+.host-name {
+  width: 90px;
+  margin-right: 10px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.host-picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.star {
+  margin-left: 15px;
+}
+
+.logement-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logement-details > div {
+  width: 47%;
+  text-align: left;
+}
+
+.logement-details > div > div {
+  font-size: 18px;
+}
+
+.logement-details > div > div:last-child > p {
+  font-size: 18px;
+  line-height: 25px;
+}
