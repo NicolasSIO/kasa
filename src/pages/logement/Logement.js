@@ -70,18 +70,18 @@ const Logement = () => {
                     key={i}
                     src="/assets/icons/orangeStar.svg"
                     alt="rated"
-                    class="star"
+                    className="star"
                   />
                 ) : (
                   <img
                     key={i}
                     src="/assets/icons/greyStar.svg"
                     alt="unrated"
-                    class="star"
+                    className="star"
                   />
                 )
               )}
-              <i class="fa-solid fa-star"></i>
+              <i className="fa-solid fa-star"></i>
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ const Collapse = (props) => {
         </div>
       </div>
       <div className={`collapse-content ${collapsed ? "collapsed" : ""}`}>
-        <p className="collapse-text">{props.content}</p>
+        <span className="collapse-text">{props.content}</span>
       </div>
     </div>
   );
