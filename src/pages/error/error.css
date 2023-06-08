@@ -21,6 +21,12 @@
   text-decoration-line: underline;
 }
 
+@media screen and (max-width: 840px) {
+  .error-404 {
+    font-size: 160px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .error-container {
     margin-top: 190px;

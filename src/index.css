@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -11,6 +15,13 @@ header,
 main {
   margin: 63px 100px 30px 100px;
   max-width: 1440px;
+}
+
+@media screen and (max-width: 980px) {
+  header,
+  main {
+    margin: 30px;
+  }
 }
 
 @media screen and (max-width: 400px) {
