@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import "./header.css";
 
@@ -7,23 +7,33 @@ const Header = () => {
   return (
     <header className="Header">
       <nav>
-        <Link to="accueil">
+        <NavLink to="accueil">
           <img
             src="/assets/img/logo-orange.svg"
             alt="Logo Kasa"
             className="logo"
           />
-        </Link>
+        </NavLink>
         <ul>
           <li>
-            <Link to="accueil" className="header-link">
+            <NavLink
+              to="accueil"
+              className={({ isActive }) =>
+                isActive ? "header-link underline" : "header-link"
+              }
+            >
               Accueil
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="a-propos" className="header-link">
+            <NavLink
+              to="a-propos"
+              className={({ isActive }) =>
+                isActive ? "header-link underline" : "header-link"
+              }
+            >
               A Propos
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
